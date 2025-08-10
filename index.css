@@ -4,8 +4,8 @@
 }
 
 @font-face {
-    font-family: 'black north font'; /* The name you'll use in your CSS */
-    src: url('https://www.fontspace.com/black-north-font-f87052') format('truetype'); /* The path to your font file */
+    font-family: 'Black North'; /* The name you'll use in your CSS */
+    src: url('https://cdn.cdnfonts.com/s/21807/BlackNorth.woff') format('woff'); /* The path to your font file */
 }
 
 /* Then apply it to your desired elements, e.g., your scores */
@@ -31,7 +31,7 @@ body {
 }
 
 .title {
-    font-family: 'black north font', sans-serif;
+    font-family: 'Black North', sans-serif;
     color: #eeeee4;
     font-size: 2rem;
     margin-bottom: 10px;
