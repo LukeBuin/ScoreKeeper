@@ -1,7 +1,6 @@
 @font-face {
     font-family: 'Cursed Timer ULiL'; /* The name you'll use in your CSS */
     src: url('https://www.fontspace.com/cursed-timer-ulil-font-f29411') format('truetype'); /* The path to your font file */
-     font-size: 8rem;
 }
 
 /* Then apply it to your desired elements, e.g., your scores */
