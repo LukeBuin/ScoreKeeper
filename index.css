@@ -3,6 +3,11 @@
     src: url('https://www.fontspace.com/cursed-timer-ulil-font-f29411') format('truetype'); /* The path to your font file */
 }
 
+@font-face {
+    font-family: 'black north font'; /* The name you'll use in your CSS */
+    src: url('https://www.fontspace.com/black-north-font-f87052') format('truetype'); /* The path to your font file */
+}
+
 /* Then apply it to your desired elements, e.g., your scores */
 #homeScore, #guestScore {
     font-family: 'Cursed Timer ULiL', sans-serif;
@@ -26,7 +31,7 @@ body {
 }
 
 .title {
-    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-family: 'black north font', sans-serif;
     color: #eeeee4;
     font-size: 2rem;
     margin-bottom: 10px;
