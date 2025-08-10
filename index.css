@@ -25,6 +25,13 @@ body {
     
 }
 
+.title {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #eeeee4;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
 #HOME {
     display: flex;
     justify-content: center;
