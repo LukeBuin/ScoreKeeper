@@ -1,8 +1,87 @@
+@font-face {
+    font-family: 'Cursed Timer ULiL'; /* The name you'll use in your CSS */
+    src: url('/fonts/CursedTimerUlil-Aznm.ttf') format('truetype'); /* The path to your font file */
+     font-size: 8rem;
+}
+
+/* Then apply it to your desired elements, e.g., your scores */
+#homeScore, #guestScore {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
 body {
     margin: 0;
+    
 }
+
 
 .container {
     display: flex;
     justify-content: space-around;
+    text-align: center;
+    background-color: #063970;
+    padding-bottom: 30px;
+    color: white;
+    
+    
+}
+
+#HOME {
+    display: flex;
+    justify-content: center;
+    color: red;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: black;
+    padding: 0px 15px;
+    font-family: cursed-timer-ulil-font-f29411;
+}
+
+#GUEST {
+    display: flex;
+    justify-content: center;
+    color: red;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: black;
+    padding: 0px 15px;
+    font-family: cursed-timer-ulil-font-f29411 ;
+}
+
+.scoreBtn {
+    margin: 10px 5px 0px 5px;
+    padding: 5px;
+    color: #eeeee4;
+    border: 0.5px solid;
+    border-radius: 3px;
+    background-color: #063970;
+    border-color: antiquewhite;
+}
+
+.scoreBtn:hover {
+    background-color: #eeeee4;
+    color: #063970;
+}
+
+.reset-button-container {
+    display: flex;
+    justify-content: center;
+    background-color: #063970;
+    padding-bottom: 30px;
+}
+
+#resetButton {
+    margin: 10px 5px 0px 5px;
+    padding: 10px;
+    color: #eeeee4;
+    border: 0.5px solid;
+    border-radius: 3px;
+    background-color: #063970;
+    border-color: antiquewhite;
+}
+
+#resetButton:hover {
+    background-color: #eeeee4;
+    color: #063970;
+
 }
